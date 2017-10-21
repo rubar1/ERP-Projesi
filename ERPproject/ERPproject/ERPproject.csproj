@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BADE72A-DB8D-4EBB-9629-5E627899BB5D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ERPproject</RootNamespace>
+    <AssemblyName>ERPproject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adminizio-lite\css\1col.css" />
+    <Content Include="adminizio-lite\css\2col.css" />
+    <Content Include="adminizio-lite\css\main-ie6.css" />
+    <Content Include="adminizio-lite\css\main.css" />
+    <Content Include="adminizio-lite\css\mystyle.css" />
+    <Content Include="adminizio-lite\css\reset.css" />
+    <Content Include="adminizio-lite\css\style.css" />
+    <Content Include="adminizio-lite\design\btn-create-left.gif" />
+    <Content Include="adminizio-lite\design\btn-create-right.gif" />
+    <Content Include="adminizio-lite\design\content-h1.gif" />
+    <Content Include="adminizio-lite\design\content.gif" />
+    <Content Include="adminizio-lite\design\dot.gif" />
+    <Content Include="adminizio-lite\design\ico-delete.gif" />
+    <Content Include="adminizio-lite\design\ico-done.gif" />
+    <Content Include="adminizio-lite\design\ico-info.gif" />
+    <Content Include="adminizio-lite\design\ico-warning.gif" />
+    <Content Include="adminizio-lite\design\menu-left.gif" />
+    <Content Include="adminizio-lite\design\menu-right.gif" />
+    <Content Include="adminizio-lite\design\menu.gif" />
+    <Content Include="adminizio-lite\design\separator.gif" />
+    <Content Include="adminizio-lite\design\submenu-active.gif" />
+    <Content Include="adminizio-lite\design\submenu-sub.gif" />
+    <Content Include="adminizio-lite\design\switcher-1col.gif" />
+    <Content Include="adminizio-lite\design\switcher-2col.gif" />
+    <Content Include="adminizio-lite\design\tabs-l.gif" />
+    <Content Include="adminizio-lite\design\tabs-r.gif" />
+    <Content Include="adminizio-lite\design\tray-logout.gif" />
+    <Content Include="adminizio-lite\design\tray.gif" />
+    <Content Include="adminizio-lite\design\ul-ul.gif" />
+    <Content Include="adminizio-lite\design\ul.gif" />
+    <Content Include="adminizio-lite\index.html" />
+    <Content Include="adminizio-lite\js\jquery.js" />
+    <Content Include="adminizio-lite\js\switcher.js" />
+    <Content Include="adminizio-lite\js\toggle.js" />
+    <Content Include="adminizio-lite\js\ui.core.js" />
+    <Content Include="adminizio-lite\js\ui.tabs.js" />
+    <Content Include="adminizio-lite\readme.txt" />
+    <Content Include="adminizio-lite\tmp\logo.gif" />
+    <Content Include="bs-binary-admin\assets\css\bootstrap.css" />
+    <Content Include="bs-binary-admin\assets\css\custom.css" />
+    <Content Include="bs-binary-admin\assets\css\font-awesome.css" />
+    <Content Include="bs-binary-admin\assets\font-awesome\fonts\fontawesome-webfontba72.svg" />
+    <Content Include="bs-binary-admin\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bs-binary-admin\assets\img\1.png" />
+    <Content Include="bs-binary-admin\assets\img\2.png" />
+    <Content Include="bs-binary-admin\assets\img\3.png" />
+    <Content Include="bs-binary-admin\assets\img\4.png" />
+    <Content Include="bs-binary-admin\assets\img\find_user.png" />
+    <Content Include="bs-binary-admin\assets\js\bootstrap.min.js" />
+    <Content Include="bs-binary-admin\assets\js\custom.js" />
+    <Content Include="bs-binary-admin\assets\js\dataTables\dataTables.bootstrap.css" />
+    <Content Include="bs-binary-admin\assets\js\dataTables\dataTables.bootstrap.js" />
+    <Content Include="bs-binary-admin\assets\js\dataTables\jquery.dataTables.js" />
+    <Content Include="bs-binary-admin\assets\js\jquery-1.10.2.js" />
+    <Content Include="bs-binary-admin\assets\js\jquery.metisMenu.js" />
+    <Content Include="bs-binary-admin\assets\js\morris\morris-0.4.3.min.css" />
+    <Content Include="bs-binary-admin\assets\js\morris\morris.js" />
+    <Content Include="bs-binary-admin\assets\js\morris\raphael-2.1.0.min.js" />
+    <Content Include="bs-binary-admin\blank.html" />
+    <Content Include="bs-binary-admin\chart.html" />
+    <Content Include="bs-binary-admin\form.html" />
+    <Content Include="bs-binary-admin\index.html" />
+    <Content Include="bs-binary-admin\tab-panel.html" />
+    <Content Include="bs-binary-admin\table.html" />
+    <Content Include="bs-binary-admin\ui.html" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="temel.Master.cs">
+      <DependentUpon>temel.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temel.Master.designer.cs">
+      <DependentUpon>temel.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="temel.Master" />
+    <Content Include="bs-binary-admin\assets\font-awesome\fonts\fontawesome-webfontba72.eot" />
+    <Content Include="bs-binary-admin\assets\font-awesome\fonts\fontawesome-webfontba72.ttf" />
+    <Content Include="bs-binary-admin\assets\font-awesome\fonts\fontawesome-webfontba72.woff" />
+    <Content Include="bs-binary-admin\assets\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="bs-binary-admin\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bs-binary-admin\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bs-binary-admin\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bs-binary-admin\assets\fonts\glyphicons-halflings-regulard41d.eot" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8437</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8437/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
